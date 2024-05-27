@@ -13,7 +13,10 @@
     "start:polling": "npm run env && npm run start:local"
   },
   "dependencies": {
-    "grammy": "^1.21.1",
+    "@grammyjs/hydrate": "github:grammyjs/hydrate",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.23.1",
     "vercel-grammy": "^1.0.0"
   }
 }
